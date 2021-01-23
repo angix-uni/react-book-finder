@@ -14,7 +14,7 @@ class App extends Component {
     super();
     this.state = {
       Books: [],
-      Query: "sql"
+      Query: "azure"
     };
   }
 
