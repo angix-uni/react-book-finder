@@ -17,4 +17,5 @@ This app uses *Google Books API* and lets you type in a term you look for and fi
 ## Installation and starting the app
 
 First **_npm install_**
+
 Then **_npm start_**
