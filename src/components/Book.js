@@ -38,13 +38,13 @@ class Book extends Component {
                               <b>Author(s):</b> {book.volumeInfo.authors}
                             </p>
                             <p>
+                              <b>No of pages:</b> {book.volumeInfo.pageCount}
+                            </p>
+                            <p>
                               <b>Rating:</b> {book.volumeInfo.ratingsCount}
                             </p>
                             <p>
                               <b>Publisher:</b> {book.volumeInfo.publisher}
-                            </p>
-                            <p>
-                              <b>No of pages:</b> {book.volumeInfo.pageCount}
                             </p>
                             <a
                               className="btn btn-default btn_custom"
@@ -57,7 +57,6 @@ class Book extends Component {
                           </div>
                           <div className="col-sm-4">
                             <img
-                              
                               src={
                                 book.volumeInfo.imageLinks !== undefined
                                   ? book.volumeInfo.imageLinks.thumbnail
@@ -75,7 +74,7 @@ class Book extends Component {
                             <br />
                             {book.searchInfo !== undefined
                               ? book.searchInfo.textSnippet
-                              : "No description were provided."}
+                              : "No description"}
                           </p>
                           
                         </div>
